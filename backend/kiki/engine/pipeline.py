@@ -47,7 +47,7 @@ def get_lesson_script(topic: str, context: str, goal: str):
   """
   
   response = client.models.generate_content(
-    model= 'gemini-2.5-pro', # was 2.5 pro earlier - service error!
+    model= 'gemini-2.5-flash', # was 2.5 pro earlier - service error!
     contents= prompt_for_script
   )
 

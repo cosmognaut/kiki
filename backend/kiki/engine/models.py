@@ -6,7 +6,7 @@ class Card(models.Model):
     card_id = models.IntegerField(primary_key=True)
     front = models.CharField(help_text="Card's front side")
     back = models.CharField(help_text="Card's back side")
-    due = models.DateTimeField(default=datetime.datetime.now(), null=True)
+    due = models.DateTimeField(default=datetime.datetime.now, null=True)
     user_review = models.CharField(null=True)
 
     def __str__(self):
