@@ -41,4 +41,16 @@ You are done now!
     ```bash
     python manage.py runserver
     ```
-The server should now be running at `https://localhost:8000/`.
+The server should now be running at `http://localhost:8000/`.
+
+**Part C: Getting the user interface to run**
+No build step is needed here as the frontend is made with a decoupled Vanilla JavaScript/HTML setup.
+1. First, change into the frontend folder
+    ```bash
+    cd frontend
+    ```
+2. Now you can serve the files using any local server; we use Python's builtin server here.
+    ```bash
+    python -m http.server 5500
+    ```
+You should now be able to access the user interface at `http://localhost:5500`.
