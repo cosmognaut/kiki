@@ -1,6 +1,9 @@
 <h1 align="center">kiki</h1>
 <p align="center">As presented at the Youth Coders Collective Hackathon, <a href="https://devpost.com/software/kiki-5i6u7v">details</a></p>
 
+## Architecture
+
+
 ## Demo
 Demo video for the core loop behind the application.
 [![Kiki application demo](https://img.youtube.com/vi/56pTk9h6ftE/maxresdefault.jpg)](https://youtu.be/56pTk9h6ftE)
