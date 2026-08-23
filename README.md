@@ -25,9 +25,6 @@ Demo presentation video for the core loop behind the application in action.
 
 [![Kiki application demo](https://img.youtube.com/vi/56pTk9h6ftE/maxresdefault.jpg)](https://www.canva.com/design/DAG2vR0i-6U/M-TsH9sK_Jt6wJgXUgeAng/view?utlId=hb63e8e4be8#10)
 
-## Built with
-Kiki's backend was built using Python (Django), where I utilised the Django REST Framework (DRF) to handle the API endpoints. The database used was PostgreSQL, which is an industry-standard for structured data and also pairs well with Django's inbuilt ORM. The frontend is crafted with vanilla HTML, CSS and JavaScript to function on a minimal and functional user experience. For the AI pipeline, I integrated the Google Gemini API (2.5 pro model) to generate both the personalized audio lesson scripts and the flashcard content. The prompt was fine-tuned to ensure quality and relevance. The text-to-speech conversion leverages the ElevenLabs API for its natural sounding non-robotic voices. The crucial spaced repetition scheduling is powered by an implementation of the FSRS (Free Spaced Repetition Scheduler) in Python within the backend.
-
 ## Local development setup 
 To get the backend for the project running you need to first have some environment variables set up. Follow the below steps to do that.
 We are assuming that you are in the root directory.
