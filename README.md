@@ -5,21 +5,24 @@
 <h1 align="center">kiki</h1>
 <p align="center">As presented at the Youth Coders Collective Hackathon, <a href="https://devpost.com/software/kiki-5i6u7v">details</a></p>
 
-## Architecture
-<div align="center">
-  <img src="./assets/kiki-archi.png" alt="kiki architecture diagram">
-</div>
-
-## Demo
-Demo video for the core loop behind the application.
-[![Kiki application demo](https://img.youtube.com/vi/56pTk9h6ftE/maxresdefault.jpg)](https://youtu.be/56pTk9h6ftE)
-
 ## Inspiration
 I have been an Anki user for quite a while now. It's gotten me through countless hurdles I have faced in my academic life. I have also been fascinated by the algorithm that powers Anki and how effectively it helps to lock in knowledge.
 
 As a sophomore, my commute and gym time add up. While I could technically review Anki cards then, pulling out my phone for flashcards feels like effort when I'd much rather just listen to music or a podcast This, to me, was a missed opportunity. What if that time could be used to learn effectively, like I did with Anki?
 
 That was the idea behind Kiki. Kiki combines the Japanese verb for listening, 'kiku' (聞く) with the memorization power of Anki (暗記). It aims to fuse the convenience of audio learning with the proven science of spaced repetition, turning those passive listening hours into truly productive study sessions.
+
+## Architecture
+<div align="center">
+  <img src="./assets/kiki-archi.png" alt="kiki architecture diagram">
+</div>
+
+## Built with
+Kiki's backend was built using Python (Django), where I utilised the Django REST Framework (DRF) to handle the API endpoints. The database used was PostgreSQL, which is an industry-standard for structured data and also pairs well with Django's inbuilt ORM. The frontend is crafted with vanilla HTML, CSS and JavaScript to function on a minimal and functional user experience. For the AI pipeline, I integrated the Google Gemini API (2.5 pro model) to generate both the personalized audio lesson scripts and the flashcard content. The prompt was fine-tuned to ensure quality and relevance. The text-to-speech conversion leverages the ElevenLabs API for its natural sounding non-robotic voices. The crucial spaced repetition scheduling is powered by an implementation of the FSRS (Free Spaced Repetition Scheduler) in Python within the backend.
+
+## Demo
+Demo video for the core loop behind the application.
+[![Kiki application demo](https://img.youtube.com/vi/56pTk9h6ftE/maxresdefault.jpg)](https://www.canva.com/design/DAG2vR0i-6U/M-TsH9sK_Jt6wJgXUgeAng/view?utlId=hb63e8e4be8#10)
 
 ## Built with
 Kiki's backend was built using Python (Django), where I utilised the Django REST Framework (DRF) to handle the API endpoints. The database used was PostgreSQL, which is an industry-standard for structured data and also pairs well with Django's inbuilt ORM. The frontend is crafted with vanilla HTML, CSS and JavaScript to function on a minimal and functional user experience. For the AI pipeline, I integrated the Google Gemini API (2.5 pro model) to generate both the personalized audio lesson scripts and the flashcard content. The prompt was fine-tuned to ensure quality and relevance. The text-to-speech conversion leverages the ElevenLabs API for its natural sounding non-robotic voices. The crucial spaced repetition scheduling is powered by an implementation of the FSRS (Free Spaced Repetition Scheduler) in Python within the backend.
