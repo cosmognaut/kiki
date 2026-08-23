@@ -44,6 +44,7 @@ You are done now!
 The server should now be running at `http://localhost:8000/`.
 
 **Part C: Getting the user interface to run**
+
 No build step is needed here as the frontend is made with a decoupled Vanilla JavaScript/HTML setup.
 1. First, change into the frontend folder
     ```bash
