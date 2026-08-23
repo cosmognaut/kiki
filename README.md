@@ -6,7 +6,9 @@
 <p align="center">As presented at the Youth Coders Collective Hackathon, <a href="https://devpost.com/software/kiki-5i6u7v">details</a></p>
 
 ## Architecture
-
+<div align="center">
+  <img src="./assets/kiki-archi.png" alt="kiki architecture diagram">
+</div>
 
 ## Demo
 Demo video for the core loop behind the application.
