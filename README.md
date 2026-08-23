@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="./assets/kiki.png" alt="kiki banner" width="100%">
+</div>
+
 <h1 align="center">kiki</h1>
 <p align="center">As presented at the Youth Coders Collective Hackathon, <a href="https://devpost.com/software/kiki-5i6u7v">details</a></p>
 
