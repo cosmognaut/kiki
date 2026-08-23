@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/kiki.png" alt="kiki banner" width="100%">
+  <img src="./assets/kiki-screenshot.png" alt="kiki banner" width="100%">
 </div>
 
 <h1 align="center">kiki</h1>
